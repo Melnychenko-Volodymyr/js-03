@@ -31,7 +31,7 @@ function submit() {
     name = inpName.value;
     email = inpEmail.value;
     password = inpPassword.value;
-    if (name !='' && email.includes('@') && email.includes('@') && password !='') {
+    if (name !='' && email.includes('@') && email.includes('.') && password !='') {
         container.style.display = "none";
         greeting.style.display = "block";
         greeting.innerHTML = "Вітаємо, " + name + ". Ви успішно пройшли реєстрацію на нашому сайті";
